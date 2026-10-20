@@ -1,12 +1,12 @@
-# Nicolômetro 💗
+# Dudômetro 💗
 
-Site para acompanhar o humor da Nicole (1–10), sincronizado em tempo real entre você e ela.
+Site para acompanhar o humor da Duda (1–10), sincronizado em tempo real entre você e ela.
 
 ## Como colocar no ar
 
 ### 1) Criar o projeto Firebase (grátis, 2 min)
 
-1. Vai em https://console.firebase.google.com → **Add project** → dá um nome (ex: `nicolometro`) → pode desativar Google Analytics.
+1. Vai em https://console.firebase.google.com → **Add project** → dá um nome (ex: `dudometro`) → pode desativar Google Analytics.
 2. No menu lateral, **Build → Realtime Database → Create Database** → escolhe a região → começa em **test mode** (depois a gente aperta as regras).
 3. No menu lateral, clica na engrenagem ⚙️ → **Project settings** → role até **Your apps** → clica no ícone `</>` (web) → dá um apelido → **Register app**.
 4. Copia o objeto `firebaseConfig` que aparece e cola em [`firebase-config.js`](firebase-config.js) substituindo os placeholders.
@@ -33,14 +33,14 @@ Em **Realtime Database → Rules**, cola isso pra qualquer um poder ler/escrever
 ```bash
 git init
 git add .
-git commit -m "nicolômetro inicial"
+git commit -m "dudômetro inicial"
 git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/nicolometro.git
+git remote add origin https://github.com/SEU_USUARIO/dudometro.git
 git push -u origin main
 ```
 
 No GitHub: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / root → Save**.
-Em ~1 min o site tá em `https://SEU_USUARIO.github.io/nicolometro/`.
+Em ~1 min o site tá em `https://SEU_USUARIO.github.io/dudometro/`.
 
 ## Como funciona
 
